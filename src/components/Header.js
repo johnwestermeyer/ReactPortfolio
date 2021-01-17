@@ -15,25 +15,19 @@ function Header() {
         <div className="collapse navbar-collapse flex-row-reverse" id="navbarNav">
           <ul className="navbar-nav ">
           <li className="nav-item">
-          <a className={location.pathname === "/" ? "nav-link active" : "nav-link"}>
-            <Link to='/'>
+          <Link className={location.pathname === "/" ? "nav-link active" : "nav-link"} to='/'>
           Home
           </Link>
-          </a>
           </li>
           <li className="nav-item">
-          <a className={location.pathname === "/portfolio" ? "nav-link active" : "nav-link"}>
-          <Link to='/portfolio'>
+          <Link className={location.pathname === "/portfolio" ? "nav-link active" : "nav-link"} to='/portfolio'>
           Portfolio
           </Link>
-          </a>
           </li>
           <li className="nav-item">
-          <a className={location.pathname === "/contact" ? "nav-link active" : "nav-link"}>
-          <Link to='/contact'>
+          <Link className={location.pathname === "/contact" ? "nav-link active" : "nav-link"} to='/contact'>
           Contact
           </Link>
-          </a>
           </li>
           </ul>
         </div>
