@@ -8,7 +8,7 @@ function Portfolio() {
     return(
         <>
         <div className="container-fluid mt-5">
-        <div className="col-12 py-3 bg-light h-auto d-inline-block w-auto">
+        <div className="col-12 py-3 mb-5 bg-light h-auto d-inline-block w-auto">
             <h1 style={{"color":"#0a6751"}}>Portfolio</h1>
             <hr />
             <Project 
@@ -27,6 +27,7 @@ function Portfolio() {
             img={game}
             alt={"Quarantine Game"}
             />
+            <br />
         </div>
         </div>
         </>
