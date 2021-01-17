@@ -7,6 +7,7 @@ import Portfolio from "./components/Portfolio"
 import Contact from "./components/Contact"
 import './App.css';
 function App() {
+  <BrowserRouter history={history} basename={process.env.PUBLIC_URL}></BrowserRouter>
   return (
     <>
     <Router>      
