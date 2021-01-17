@@ -1,5 +1,5 @@
 import React from "react";
-import {useLocation } from "react-router-dom";
+import {useLocation, Link} from "react-router-dom";
 
 function Header() {
   
@@ -15,18 +15,24 @@ function Header() {
         <div className="collapse navbar-collapse flex-row-reverse" id="navbarNav">
           <ul className="navbar-nav ">
           <li className="nav-item">
-          <a className={location.pathname === "/" ? "nav-link active" : "nav-link"} href="/">
+          <a className={location.pathname === "/" ? "nav-link active" : "nav-link"}>
+            <Link to='/'>
           Home
+          </Link>
           </a>
           </li>
           <li className="nav-item">
-          <a className={location.pathname === "/portfolio" ? "nav-link active" : "nav-link"} href="/portfolio">
+          <a className={location.pathname === "/portfolio" ? "nav-link active" : "nav-link"}>
+          <Link to='/portfolio'>
           Portfolio
+          </Link>
           </a>
           </li>
           <li className="nav-item">
-          <a className={location.pathname === "/contact" ? "nav-link active" : "nav-link"} href="/contact">
+          <a className={location.pathname === "/contact" ? "nav-link active" : "nav-link"}>
+          <Link to='/contact'>
           Contact
+          </Link>
           </a>
           </li>
           </ul>
