@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/ReactPortfolio/static/css/main.c7bc0ce7.chunk.css",
+    "main.css": "/ReactPortfolio/static/css/main.551546f5.chunk.css",
     "main.js": "/ReactPortfolio/static/js/main.49a18257.chunk.js",
     "main.js.map": "/ReactPortfolio/static/js/main.49a18257.chunk.js.map",
     "runtime-main.js": "/ReactPortfolio/static/js/runtime-main.a9b44e4e.js",
@@ -12,7 +12,7 @@
     "static/js/3.8d7c3ec0.chunk.js.map": "/ReactPortfolio/static/js/3.8d7c3ec0.chunk.js.map",
     "index.html": "/ReactPortfolio/index.html",
     "static/css/2.1f208231.chunk.css.map": "/ReactPortfolio/static/css/2.1f208231.chunk.css.map",
-    "static/css/main.c7bc0ce7.chunk.css.map": "/ReactPortfolio/static/css/main.c7bc0ce7.chunk.css.map",
+    "static/css/main.551546f5.chunk.css.map": "/ReactPortfolio/static/css/main.551546f5.chunk.css.map",
     "static/js/2.4f3fb6a5.chunk.js.LICENSE.txt": "/ReactPortfolio/static/js/2.4f3fb6a5.chunk.js.LICENSE.txt",
     "static/media/John-Westermeyer.6a8e84e4.pdf": "/ReactPortfolio/static/media/John-Westermeyer.6a8e84e4.pdf",
     "static/media/App.css": "/ReactPortfolio/static/media/bg.180fd1e3.webp",
@@ -25,7 +25,7 @@
     "static/js/runtime-main.a9b44e4e.js",
     "static/css/2.1f208231.chunk.css",
     "static/js/2.4f3fb6a5.chunk.js",
-    "static/css/main.c7bc0ce7.chunk.css",
+    "static/css/main.551546f5.chunk.css",
     "static/js/main.49a18257.chunk.js"
   ]
 }
