@@ -7,10 +7,14 @@ import Portfolio from "./components/Portfolio"
 import Contact from "./components/Contact"
 import './App.css';
 function App() {
-  <BrowserRouter history={history} basename={process.env.PUBLIC_URL}></BrowserRouter>
+  const history = createHistory({
+    basename: process.env.PUBLIC_URL,
+  });  
+  const store = configureStore({ history });
   return (
     <>
-    <Router>      
+    <Provider store={store}>
+    <ConnectedRouter history={history}>      
       <Header/>
       <Switch>
         <Route path="/portfolio">
@@ -23,7 +27,8 @@ function App() {
           <Main />
         </Route>
       </Switch>
-    </Router>
+    </ConnectedRouter>
+    </Provider>
     <Footer/>
     </>
   );
