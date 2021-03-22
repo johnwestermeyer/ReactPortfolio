@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/ReactPortfolio/static/css/main.551546f5.chunk.css",
-    "main.js": "/ReactPortfolio/static/js/main.d2f609d3.chunk.js",
-    "main.js.map": "/ReactPortfolio/static/js/main.d2f609d3.chunk.js.map",
+    "main.js": "/ReactPortfolio/static/js/main.0a1f37f3.chunk.js",
+    "main.js.map": "/ReactPortfolio/static/js/main.0a1f37f3.chunk.js.map",
     "runtime-main.js": "/ReactPortfolio/static/js/runtime-main.a9b44e4e.js",
     "runtime-main.js.map": "/ReactPortfolio/static/js/runtime-main.a9b44e4e.js.map",
     "static/css/2.1f208231.chunk.css": "/ReactPortfolio/static/css/2.1f208231.chunk.css",
@@ -19,6 +19,7 @@
     "static/media/game.b5077ceb.png": "/ReactPortfolio/static/media/game.b5077ceb.png",
     "static/media/me.a7869ab9.png": "/ReactPortfolio/static/media/me.a7869ab9.png",
     "static/media/quiz.a97a1b76.png": "/ReactPortfolio/static/media/quiz.a97a1b76.png",
+    "static/media/snippet.719157a0.png": "/ReactPortfolio/static/media/snippet.719157a0.png",
     "static/media/weather.568b3b79.png": "/ReactPortfolio/static/media/weather.568b3b79.png"
   },
   "entrypoints": [
@@ -26,6 +27,6 @@
     "static/css/2.1f208231.chunk.css",
     "static/js/2.4f3fb6a5.chunk.js",
     "static/css/main.551546f5.chunk.css",
-    "static/js/main.d2f609d3.chunk.js"
+    "static/js/main.0a1f37f3.chunk.js"
   ]
 }
