@@ -17,25 +17,33 @@ function Portfolio() {
             img={weather}
             alt={"Weather Dashboard"}
             git={"https://github.com/johnwestermeyer/WeatherDashboard"}
+            desc={"Weather Dashboard display with tab view for multiple cities"}
+            tech={"JS, HTML, CSS"}
             />  
             <Project 
             link={"https://johnwestermeyer.github.io/TimedQuiz/"}
             img={quiz}
             alt={"Timed Quiz"}
-            git={"https://github.com/johnwestermeyer/TimedQuiz"}
+            git={"https://github.com/johnwestermeyer/TimedQuiz"}            
+            desc={"Multiple choice quiz with a countdown timer and high score table"}
+            tech={"JS, HTML, CSS"}
             />
             <br />
             <Project 
             link={"https://github.com/johnwestermeyer/QuarantineGame"}
             img={game}
             alt={"Quarantine Game"}
-            git={"https://github.com/johnwestermeyer/QuarantineGame"}
+            git={"https://github.com/johnwestermeyer/QuarantineGame"}                        
+            desc={"Real-time multiplayer card game with chat"}
+            tech={"JS, HTML, CSS, Socket.IO, MySQL, JQuery"}
             />
             <Project
             link={"http://snippet.ltd"}
             img={snippet}
             alt={"Snippet"}
-            git={"https://github.com/johnwestermeyer/Snippet"}
+            git={"https://github.com/johnwestermeyer/Snippet"}                        
+            desc={"Database for storing and sharing code snippets"}
+            tech={"JS, HTML, CSS, React, Sequelize, MySQL, Passport"}
             />
             <br />
         </div>
