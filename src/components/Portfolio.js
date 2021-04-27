@@ -30,7 +30,7 @@ function Portfolio() {
             />
             <br />
             <Project 
-            link={"https://github.com/johnwestermeyer/QuarantineGame"}
+            link={"https://calm-crag-81636.herokuapp.com/"}
             img={game}
             alt={"Quarantine Game"}
             git={"https://github.com/johnwestermeyer/QuarantineGame"}                        
