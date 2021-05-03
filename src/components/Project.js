@@ -9,6 +9,7 @@ function Project(props) {
             <br/>
             <p>{props.desc}</p>
             <p>Technologies Used: {props.tech}</p>
+            <a href={props.git}>Git Repo</a> | &nbsp;
             <a href={props.link}>Live Demo</a>
         </div>
     )
